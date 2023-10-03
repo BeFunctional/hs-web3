@@ -47,7 +47,7 @@ library
   ghc-options: -funbox-strict-fields -Wduplicate-exports -Whi-shadowing -Widentities -Woverlapping-patterns -Wpartial-type-signatures -Wunrecognised-pragmas -Wtyped-holes -Wincomplete-patterns -Wincomplete-uni-patterns -Wmissing-fields -Wmissing-methods -Wmissing-exported-signatures -Wmissing-monadfail-instances -Wmissing-signatures -Wname-shadowing -Wunused-binds -Wunused-top-binds -Wunused-local-binds -Wunused-pattern-binds -Wunused-imports -Wunused-matches -Wunused-foralls -Wtabs
   build-depends:
       OneTuple >0.2 && <0.4
-    , aeson >1.2 && <2.1
+    , aeson >1.2 && <2.3
     , base >4.11 && <4.16
     , basement >0.0 && <0.1
     , bytestring >0.10 && <0.11
@@ -95,7 +95,7 @@ test-suite tests
   ghc-options: -funbox-strict-fields -Wduplicate-exports -Whi-shadowing -Widentities -Woverlapping-patterns -Wpartial-type-signatures -Wunrecognised-pragmas -Wtyped-holes -Wincomplete-patterns -Wincomplete-uni-patterns -Wmissing-fields -Wmissing-methods -Wmissing-exported-signatures -Wmissing-monadfail-instances -Wmissing-signatures -Wname-shadowing -Wunused-binds -Wunused-top-binds -Wunused-local-binds -Wunused-pattern-binds -Wunused-imports -Wunused-matches -Wunused-foralls -Wtabs -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       OneTuple >0.2 && <0.4
-    , aeson >1.2 && <2.1
+    , aeson >1.2 && <2.3
     , base >4.11 && <4.16
     , basement >0.0 && <0.1
     , bytestring >0.10 && <0.11
